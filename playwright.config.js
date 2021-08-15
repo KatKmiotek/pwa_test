@@ -36,8 +36,11 @@ const config = {
     },
   ],
   use: {
-      headless: false,
-      baseURL: 'https://twitter.com/'
+      headless: true,
+      baseURL: 'https://twitter.com/',
+      contextOptions: {
+          offline: false,
+      }
   }
 };
 

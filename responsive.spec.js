@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test.describe('responsive design tests', () => {
+test.describe('responsive design tests of twitter PWA', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
